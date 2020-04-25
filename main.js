@@ -1,6 +1,6 @@
-const wpjson = 'https://kasan.tokyo/news/wp-json/wp/v2/posts';    
-const embeddedElementId= 'news';
-const embeddedArticlesNumber = 3;
+const wpjson = '[YOUR-WP-JSON]';    
+const embeddedElementId= '[YOUR-HTML-ID]';
+const embeddedArticlesNumber = 3; // number of artilces. Customise as you like.
 
 function EmbeddingWpArticles() {}
 EmbeddingWpArticles.prototype = {
